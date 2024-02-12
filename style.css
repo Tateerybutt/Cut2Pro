@@ -1,0 +1,57 @@
+body{
+    text-align: center;
+}
+
+#outputCanvas{
+    margin: 12px auto;
+    padding: 52px;
+    background-color: silver;
+    border: 12px solid navy;
+    border-radius: 12px;
+    display: none;
+}
+
+#outputCanvas img{
+    border-radius: 12px;
+}
+
+input[type = file]{
+    color: silver;
+    padding: 14px;
+    border-radius: 12px;
+    background-color: navy;
+}
+
+input[type = file]::file-selector-button {
+    background-color: silver;
+    padding: 10px;
+    color: navy;
+    border-radius: 12px;
+    border: 3px solid silver;
+}
+
+input[type = file]::file-selector-button:hover{
+    background-color: navy;
+    color: silver;
+}
+
+.button-container{
+    margin: 12px auto;
+    width: fit-content;
+    padding: 8px;
+    border-radius: 12px;
+    background-color: navy;
+}
+
+.button-container button{
+    border: 3px solid silver;
+    border-radius: 3px;
+    font-weight: bold;
+    padding: 14px 16px;
+    background-color: silver;
+}
+
+.button-container button:hover{
+    background-color: navy;
+    color: silver;
+}
