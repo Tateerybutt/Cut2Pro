@@ -1,8 +1,8 @@
-body{
+body {
     text-align: center;
 }
 
-#outputCanvas{
+#outputCanvas {
     margin: 12px auto;
     padding: 52px;
     background-color: silver;
@@ -11,18 +11,18 @@ body{
     display: none;
 }
 
-#outputCanvas img{
+#outputCanvas img {
     border-radius: 12px;
 }
 
-input[type = file]{
+input[type=file] {
     color: silver;
     padding: 14px;
     border-radius: 12px;
     background-color: navy;
 }
 
-input[type = file]::file-selector-button {
+input[type=file]::file-selector-button {
     background-color: silver;
     padding: 10px;
     color: navy;
@@ -30,12 +30,12 @@ input[type = file]::file-selector-button {
     border: 3px solid silver;
 }
 
-input[type = file]::file-selector-button:hover{
+input[type=file]::file-selector-button:hover {
     background-color: navy;
     color: silver;
 }
 
-.button-container{
+.button-container {
     margin: 12px auto;
     width: fit-content;
     padding: 8px;
@@ -43,15 +43,49 @@ input[type = file]::file-selector-button:hover{
     background-color: navy;
 }
 
-.button-container button{
+.button-container button {
+    font-size: 20px;
     border: 3px solid silver;
     border-radius: 3px;
     font-weight: bold;
-    padding: 14px 16px;
+    padding: 10;
     background-color: silver;
 }
 
-.button-container button:hover{
+.button-container button:hover {
     background-color: navy;
     color: silver;
+}
+
+header {
+    height: 15px;
+    padding: 16px;
+    margin-bottom: 10px;
+    background-color: navy;
+}
+
+header h2 {
+    padding: 0;
+    margin: 0;
+    top: 0;
+    color: silver;
+    float: left;
+}
+
+header nav {
+    float: right;
+}
+
+header nav a {
+    margin: 3px;
+    border: silver 3px solid;
+    border-radius: 12px;
+    color: silver;
+    text-decoration: none;
+    padding: 7px;
+}
+
+header nav a:hover {
+    color: navy;
+    background-color: silver;
 }
