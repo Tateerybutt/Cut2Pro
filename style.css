@@ -79,10 +79,10 @@ header nav {
 header nav a {
     margin: 3px;
     border: silver 3px solid;
-    border-radius: 12px;
+    border-radius: 10px;
     color: silver;
     text-decoration: none;
-    padding: 7px;
+    padding: 4px;
 }
 
 header nav a:hover {
